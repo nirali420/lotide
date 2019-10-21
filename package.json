@@ -1,0 +1,27 @@
+{
+	"name": "@impro/lotide",
+	"version": "1.0.0",
+	"description": "A mini clone of the [Lodash](https://lodash.com) library.",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirali420/lotide.git"
+	},
+	"author": "nirali",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nirali420/lotide/issues"
+	},
+	"homepage": "https://github.com/nirali420/lotide#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "^6.2.2",
+		"chai": "^4.2.0"
+	}
+}
