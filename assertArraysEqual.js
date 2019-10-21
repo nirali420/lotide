@@ -1,6 +1,6 @@
-const eqArrays = function(array1, array2) {
+const assertArraysEqual = function(array1, array2) {
 	let temp = false;
-	if (array1.length != array2.length) {
+	if (array1.length !== array2.length) {
 		return false;
 	}
 	for (let i = 0; i < array1.length; i++) {
@@ -9,6 +9,6 @@ const eqArrays = function(array1, array2) {
 		}
 	}
 	return true;
-
 }
-module.exports = eqArrays;
+
+module.exports = assertArraysEqual;
